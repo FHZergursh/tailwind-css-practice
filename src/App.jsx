@@ -10,7 +10,15 @@ const App = () => {
           <span>About</span>
           <span>Contract</span>
         </div>
+      </div>
 
+      <div className='grid grid-cols-2 text-white p-6 gap-6'>
+        <div className='bg-slate-500 p-4 rounded-xl'>Feature One</div>
+        <div className='bg-slate-500 p-4 rounded-xl'>Feature Two</div>
+        <div className='bg-slate-500 p-4 rounded-xl'>Feature Three</div>
+        <div className='bg-slate-500 p-4 rounded-xl'>Feature Four</div>
+        <div className='bg-slate-500 p-4 rounded-xl'>Feature Five</div>
+        <div className='bg-slate-500 p-4 rounded-xl'>Feature Six</div>
       </div>
     </div>
   )
